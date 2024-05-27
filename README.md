@@ -16,8 +16,9 @@ DoTask is a minimalistic todo extension for your browser, built with React and V
 To use this extension, follow these steps:
 
 1. Clone this repository to your local machine:
-[git clone https://github.com/your-username/dotask-extension.git](https://github.com/diveshdalvi/Task-Manager-Browser-Extension.git)
-
+```
+git clone https://github.com/your-username/dotask-extension.git
+```
 
 2. Navigate into the project directory:
 ```
