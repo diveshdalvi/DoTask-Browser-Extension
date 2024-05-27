@@ -1,8 +1,44 @@
-# React + Vite
+# DoTask - A Simple Todo Browser Extension
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+DoTask is a minimalistic todo extension for your browser, built with React and Vite. It allows users to add, mark as done, and remove tasks right from their browser toolbar.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Features
+
+- **Add Todo**: Easily add new tasks to your list.
+- **Mark as Done**: Mark tasks as completed when you finish them.
+- **Remove Todo**: Remove tasks from the list when they are no longer needed.
+- **Persistent Storage**: Todos are saved locally, so you won't lose them even after closing the browser.
+
+## How to Run
+
+To use this extension, follow these steps:
+
+1. Clone this repository to your local machine:
+[git clone https://github.com/your-username/dotask-extension.git](https://github.com/diveshdalvi/Task-Manager-Browser-Extension.git)
+
+
+2. Navigate into the project directory:
+cd dotask-extension
+cd '.\DoTask Web Extension\'
+
+3. Install dependencies:
+npm install
+
+4. Build the extension:
+npm run build
+
+5. Open your browser and go to the extensions page.
+
+6. Enable Developer mode.
+
+7. Click on "Load unpacked" and select the `dist` directory within your project folder.
+
+8. The DoTask icon should now appear in your browser toolbar.
+
+
+
+## Contributing
+
+Contributions are welcome! If you find any bugs or have suggestions for improvements, feel free to open an issue or create a pull request.
