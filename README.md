@@ -20,22 +20,27 @@ To use this extension, follow these steps:
 
 
 2. Navigate into the project directory:
-cd dotask-extension
+```
 cd '.\DoTask Web Extension\'
+```
 
 3. Install dependencies:
+```
 npm install
+```
 
 4. Build the extension:
+```
 npm run build
+```
 
 5. Open your browser and go to the extensions page.
 
-6. Enable Developer mode.
+7. Enable Developer mode.
 
-7. Click on "Load unpacked" and select the `dist` directory within your project folder.
+8. Click on "Load unpacked" and select the `dist` directory within your project folder.
 
-8. The DoTask icon should now appear in your browser toolbar.
+9. The DoTask icon should now appear in your browser toolbar.
 
 
 
